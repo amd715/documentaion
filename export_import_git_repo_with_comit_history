@@ -1,0 +1,10 @@
+Comand line export of git repository with comit history
+1. Create temp directory
+2. cone the bare repo: git clone --bare https://github.com/username/reponame.git
+This will create bare repo with comit history and no working tree
+
+Importing the repo
+1. Create a new GitHub repository. You can do this from within the "+" menu in the upper right- or left-hand corner of your project window.
+2. Open the "Git Shell" application in your local machine where you cloned bare repo.
+3. Go to reponame.git 
+4. Run the command from reponame.git: git push --mirror [new_repo_url]
