@@ -1,6 +1,6 @@
 Comand line export of git repository with comit history
 1. Create temp directory
-2. cone the bare repo: git clone --bare https://github.com/username/reponame.git
+2. Clone the bare repo: git clone --bare https://github.com/username/reponame.git
 This will create bare repo with comit history and no working tree
 
 Importing the repo
